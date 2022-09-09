@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/style.css">
+  <title>Diana Avila</title>
+</head>
+<body class="light-theme">
+  <main>  
+    <nav id="navbar" class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#nav-toggle" aria-controls="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav-toggle" class="collapse navbar-collapse" >
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#contact">
+              Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="change">
+      <button id="btn-change-theme" class="btn m-1" onclick="change()">Mudar tema</button>
+    </header>
+    <br>
+    <section id="principal" class="container">
+      <div id="profile" class="profile">
+        <img class="img-fluid text-center" src="static/img/me.jpg" alt="Foto do perfil">
+        <div>
+          <h1>Diana Avila</h1>
+          <h3>Analista e Desenvolvedora de Sistemas</h3>  
+          <div id="medias" class="medias">
+            <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/dianafismed/"></a>
+            <a class="fa fa-whatsapp" target="_blank" href="#"></a>
+            <a class="fa fa-instagram" target="_blank" href="https://www.instagram.com/dianafismed/"></a>
+            <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/in/dianafismed/"></a>
+            <a class="fa fa-github" target="_blank" href="https://github.com/dianafismed"></a>
+            <a class="fa fa-envelope" href="mailto:dianafismed@yahoo.com.br"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="container-fluid">
+      <h2 class="text-center">Projetos</h2>
+      <div class="row">
+        <div id="elas" class="project container col-lg-3 col-md-4 col-sm-12">
+          <h3>ElasNaTech</h3>
+          <ul>
+            <li><a target="_blank" href="https://dianafismed.github.io/elasnatech-arquiteta/">Arquiteta</a></li>
+            <li><a target="_blank" href="https://dianafismed.github.io/elasnatech-cardapio/">Cardápio</a></li>
+            <li><a target="_blank" href="https://dianafismed.github.io/elasnatech-otica/">Ótica</a></li>
+          </ul>
+        </div>
+        <div id="santander" class="project container col-lg-3 col-md-4 col-sm-12">
+          <h3>Santander </h3>
+          <ul>
+            <li><a target="_blank" href="https://dianafismed.github.io/santander-contador/">Contador</a></li>
+            <li><a target="_blank" href="https://dianafismed.github.io/santander-insta/">Instagram</a></li>
+            <li><a target="_blank" href="https://dianafismed.github.io/santander-todolist/">To-do List</a></li>
+          </ul>
+        </div>
+        <div id="alura" class="project container col-lg-3 col-md-4 col-sm-12">
+          <h3>Imersão Alura</h3>
+          <ul>
+            <li><a target="_blank" href="https://dianafismed.github.io/imersaodev-conversores/">Conversores</a></li>
+            <li><a target="_blank" href="https://dianafismed.github.io/imersaodev-media.github.io/">Calculadora de média</a></li>
+            <li><a target="_blank" href="https://dianafismed.github.io/imersaodev-mentalist.github.io/">Mentalist</a></li>
+            <li><a target="_blank" href="https://dianafismed.github.io/imersaodev-supertrunfo.github.io/">Supertrunfo</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="other-projects" class="other-projects container-fluid text-center">
+      <h2 class="text-center">Outros Projetos</h2>
+      <div class="project container text-center mx-auto">
+        <a target="_blank" href="https://dianafismed.github.io/Isas.github.io/">
+          <img class="img-fluid" src="static/img/projects/isas.jpg" alt="Isas Bolos e Doces">
+        </a>
+        <a target="_blank" href="https://dianafismed.github.io/pelaslentesdadeia/">
+          <img class="img-fluid" src="static/img/projects/pelaslentesdadeia.PNG" alt="Pelas Lentes da Déia">
+        </a>  
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <img class="img-fluid" src="static/img/me.jpg" alt="Foto da Diana">
+        </div>
+        <div class="col-md-8">
+          <h2>Quem sou eu ... </h2>
+          <p>Sou recém-graduada no curso de Análise e Desenvolvimento de Sistemas pela Faculdade Tecnológica de Ribeirão Preto (FATEC).</p>
+          <p>Atuo na área financeira, mas tenho grande interesse em mudar de área.</p>
+          <p>Não possuo (ainda) experiência profissional na área de programação.</p>
+          <p>Sou proativa e inteligente</p>
+          <p>Estou disponível para trabalhos remotos.</p>  
+
+          <div>
+            <div id="grade">
+              <h2>Academia</h2>
+              <h3 class="text-decoration-underline">Graduação</h3>
+              <p>Tecnologia em Análise e Desenvolvimento de Sistemas - FATEC</p>
+              <p>Bacharelado em Física Médica - USP</p>
+              <p>Curso Sequencial em Gestão Financeira - Moura Lacerda</p>
+              <br>
+              <h3 class="text-decoration-underline">Pós-Graduação</h3>
+              <p>CSI: Criminalística - Unyleya</p>
+              <p>Psicologia Forense - Unyleya</p>
+              <h2>Idiomas</h2>
+              <p>Inglês Intermediário</p>
+              <p>Francês básico</p>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </section>
+
+    <footer class="container-fluid">
+      <div id="footer">
+        <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/dianafismed/"></a>
+        <a class="fa fa-whatsapp" target="_blank" href="#"></a>
+        <a class="fa fa-instagram" target="_blank" href="https://www.instagram.com/dianafismed/"></a>
+        <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/in/dianafismed/"></a>
+        <a class="fa fa-github" target="_blank" href="https://github.com/dianafismed"></a>
+      </div>
+    </footer>
+
+    <!-- Modal-->
+    <div id="contact" class="modal fade" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="false">
+      <div class="modal-dialog">
+        <div class="modal-content p-3">
+          <button type="button" class="btn-close text-right" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h2 id="contactLabel" class="modal-title text-center" >Contato</h2>
+          <form action="" method="post">
+            <label for="name"></label>
+            <input id="name" type="text" class="form-control" placeholder="Nome completo" autofocus>
+            <label for="email"></label>
+            <input id="email" type="email" class="form-control" placeholder="E-mail" >
+            <label for="phone"></label>
+            <input id="phone" type="tel" class="form-control" placeholder="(XX) XXXXXXXXX" pattern="[0-9]{11}">
+            <label for="message" class="form-label"></label>
+            <textarea id="message" class="form-control" rows="5" cols="30" placeholder="Mensagem"></textarea>
+            <button id="btn-contact" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c7d4facc8d.js" crossorigin="anonymous"></script> 
+  <script src="../static/js/scripts.js"></script> 
+</body>
+</html>
